@@ -1,0 +1,346 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: ease all 0.5s;
+/*  border: 1px solid black;*/
+  font-family: 'Roboto' sans-serif;
+}
+.login{
+  display: flex;
+}
+.mobile{
+  display: none;
+}
+.login-form{
+  width: 35%;
+  background-image: url('../images/text-background.png');
+  background-repeat: no-repeat;
+  background-position-y: 150px;
+  padding: 70px;
+  padding-top: 200px;
+}
+.login .login-form h3{
+  color: rgb(40, 167, 69);
+  font-size: 28px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.login .login-form form{
+  display: flex;
+  flex-direction: column;
+}
+.login .login-form form input{
+  width: 350px;
+  height: 60px;
+  margin-bottom: 15px;
+  border-radius: 15px;
+  padding-left: 15px;
+  border: 2px solid rgb(40, 167, 69);
+}
+.login .login-form form input:focus{
+    border-color: rgb(40, 167, 69);
+    outline: none;
+}
+.login .login-form form button{
+  width: 350px;
+  height: 60px;
+  margin-top: 20px;
+  background-color: rgb(40, 167, 69, 1.0);
+  color: white;
+  font-size: 22px;
+  border-radius: 15px;
+  outline: none;
+  border: none;
+}
+.login .login-text{
+  width: 65%;
+  height: 700px;
+  text-align: center;
+  padding-top: 70px;
+  background-image: url('../images/Ellipse-background.png');
+  background-size: 95%;
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: -100px;
+  padding-left: 250px;
+}
+.login .login-text .logo{
+  width: 220px;
+  height: 220px;
+  margin: 0 auto;
+}
+.login .login-text .logo img{
+  width: 100%;
+  height: 100%;
+}
+.login .login-text .text{
+  width: 70%;
+  margin: 0 auto;
+  color: white;
+  margin-top: 10px;
+}
+.login .login-text .text h3{
+  font-size: 35px !important;
+}
+.login .login-text .text p{
+  margin-top: 10px;
+  font-size: 15px;
+}
+.footer{
+  margin-top: 50px;
+  border: 1px solid black;
+  background-color: black;
+}
+.footer p{
+  width: 40%;
+  color: white;
+  margin: 10px 0 10px 80px;
+}
+
+@media screen and (min-width: 1520px){
+  p{
+    font-size: 16px;
+  }
+  h3{
+    font-size: 30px;
+  }
+}
+@media screen and (min-width: 1440px){
+ .login{
+    margin-top: 200px;
+ }
+}
+@media screen and (max-width: 1084px){
+  .login .login-text{
+    background-size: 97%;
+  }
+  .login .login-text .text{
+    width: 80%;
+  }
+}
+@media screen and (max-width: 1040px){
+  .login .login-text .text{
+    width: 85%;
+  }
+}
+@media screen and (max-width: 1011px){
+  .login .login-text .text{
+    width: 88%;
+  }
+}
+@media screen and (max-width: 990px){
+  .login-form{
+    width: 30%;
+    padding: 70px;
+    padding-top: 200px;
+  }
+  .login .login-form form input{
+    width: 310px;
+  }
+  .login .login-form form button{
+    width: 310px;
+  }
+  .login .login-text{
+    width: 70%;
+    height: 627px;
+  }
+  .login .login-text .text{
+    width: 90%;
+  }
+}
+@media screen and (max-width: 904px){
+  *{
+/*    border: 1px solid black;*/
+  }
+  .login{
+    display: none;
+  }
+  .mobile{
+    display: flex;
+    flex-direction: column;
+  }
+  .mobile .login-text{
+    width: 100%;
+    height: 520px;
+    text-align: center;
+    padding-left: 0px;
+    background-color: rgb(40, 167, 69, 1.0);
+  }
+  .mobile .login-text .text{
+    width: 80%;
+    margin: 0 auto;
+  }
+  .mobile .login-text .text{
+    margin-top: 5px;
+  }   
+  .mobile .login-text .text h3{
+    font-size: 35px !important;
+    margin-bottom: 10px;
+  }
+  .mobile .login-text .text p{
+    font-size: 18px !important;
+  }
+  .login-form{
+    width: 100%;
+    padding: 70px;
+    padding-top: 120px;
+  }
+  .login .login-form h3{
+    font-size: 40px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+  .login .login-form form{
+    display: flex;
+    flex-direction: column;
+  }
+  .login .login-form form input{
+     width: 750px;
+     height: 65px;
+     margin-bottom: 20px;
+     font-size: 17px;
+  }
+  .login .login-form form button{
+     width: 750px;
+     height: 65px;
+  }
+  .footer p{
+    font-size: 18px;
+     width: 40%;
+     text-align: center;
+     color: white;
+     margin: 10px auto;
+  }
+}
+@media screen and (max-width: 860px){
+  .login .login-form form input{
+     width: 700px;
+     height: 65px;
+     margin-bottom: 20px;
+     font-size: 17px;
+  }
+  .login .login-form form button{
+     width: 700px;
+     height: 65px;
+  }
+}
+@media screen and (max-width: 815px){
+  .login .login-form form input{
+     width: 650px;
+     height: 65px;
+  }
+  .login .login-form form button{
+     width: 650px;
+     height: 65px;
+  }
+}
+@media screen and (max-width: 745px){
+  .login .login-form form input{
+     width: 600px;
+     height: 65px;
+  }
+  .login .login-form form button{
+     width: 600px;
+     height: 65px;
+  }
+}
+@media screen and (max-width: 700px){
+  .login .login-form form input{
+     width: 550px;
+     height: 65px;
+  }
+  .login .login-form form button{
+     width: 550px;
+     height: 65px;
+  }
+  .footer p{
+     width: 60%;
+  }
+}
+@media screen and (max-width: 650px){
+  .login .login-form form input{
+     width: 500px;
+     height: 65px;
+  }
+  .login .login-form form button{
+     width: 500px;
+     height: 65px;
+  }
+}
+@media screen and (max-width: 610px){
+  .login .login-form form input{
+     width: 450px;
+     height: 65px;
+  }
+  .login .login-form form button{
+     width: 450px;
+     height: 65px;
+  }
+} 
+@media screen and (max-width: 540px){
+  .mobile .login-text .text{
+    width: 85%;
+  }
+  .login .login-form form input{
+     width: 400px;
+     height: 65px;
+  }
+  .login .login-form form button{
+     width: 400px;
+     height: 65px;
+  }
+}
+@media screen and (max-width: 540px){
+  .login .login-form form input{
+     width: 400px;
+     height: 65px;
+  }
+  .login .login-form form button{
+     width: 400px;
+     height: 65px;
+  }
+}
+@media screen and (max-width: 495px){
+  .mobile .login-form{
+    padding: 40px;
+    padding-top: 100px;
+  }
+  .mobile .login-text .text{
+    width: 90%;
+  }
+  .login .login-form form input{
+     width: 370px;
+     height: 65px;
+  }
+  .login .login-form form button{
+     width: 370px;
+     height: 65px;
+  }
+}
+@media screen and (max-width: 450px){
+  .mobile .login-text .text p{
+    width: 85%;
+    font-size: 15px;
+    text-align: center;
+    border: 1px solid black;
+    margin: 0 auto;
+  }
+  .login .login-form h3{
+    font-size: 35px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+  }
+  .login .login-form form input{
+     width: 320px;
+     height: 50px;
+     font-size: 15px;
+  }
+  .login .login-form form button{
+     width: 320px;
+     height: 50px;
+  }
+}
+
+
+
