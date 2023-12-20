@@ -1,0 +1,409 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Cambay', sans-serif;
+}
+p{
+	font-style: normal;
+}
+.header{
+	width: 100%;
+	padding: 20px 10px 20px 50px;
+}
+.header .header-con{
+	display: flex;
+}
+.header .header-con .logo{
+	width: 40px;
+	height: 40px;
+}
+.header .header-con .logo img{
+	width: 100%;
+	height: 100%;
+}
+.header .header-con p{
+	font-size: 13px;
+	margin-top: 8px;
+}
+.supervisor{
+	width: 100%;
+	background-color: rgb(236, 236, 236, 1.0);
+	padding-bottom: 15px;
+	padding: 50px;
+	position: relative;
+}
+.supervisor .width{
+	width: 694px;
+	margin: 0 auto;
+/*	border: 2px solid black;*/
+	border-radius: 7px;
+}
+.supervisor .supervisor-image{
+	width: 130px;
+	height: 130px;
+	position: absolute;
+	top: 48px;
+	left: 250px;
+}
+.supervisor .supervisor-image img{
+	width: 100%;
+	height: 100%;
+}
+.supervisor .supervisor-details{
+	height: 183px !important;
+	color: white;
+	background-color: rgb(26, 63, 46, 1.0);
+	display: flex;
+	justify-content: space-between;
+	padding: 12px 40px 25px 40px !important;
+	border: 1px solid #89A193;
+}
+.supervisor .supervisor-details .details-text h2{
+	font-size: 30px;
+	line-height: 29.94px;
+	margin-bottom: 15px;
+	font-family: 'Cambay' sans-serif;
+	font-weight: 700 !important;
+}
+.supervisor .supervisor-details .details-text p{
+	font-size: 18px;
+	line-height: 18.96px;
+	margin-bottom: 15px;
+	text-transform: capitalize;
+}
+.supervisor .supervisor-details .details-text .button{
+	display: flex;
+	margin-top: 25px;
+}
+.supervisor .supervisor-details .details-text .button button{
+	width: 102px;
+	height: 30px;
+	color: white;
+	margin-right: 15px;
+	padding: 7px 6px 4px 6px !important;
+	border: none;
+	border-radius: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 2px;
+	background-color: rgb(2, 151, 83, 1.0);
+	font-size: 11px !important;
+	font-style: normal;
+	cursor: pointer;
+}
+.supervisor .supervisor-details .details-text .button .security{
+	color: rgb(26, 63, 46, 1.0);
+	background-color: rgb(159, 226, 195, 1.0);
+}
+.supervisor .supervisor-details .details-code .code button{
+	width: 128px;
+	height: 36px;
+	color: rgb(26, 63, 46, 1.0);
+	background-color: white;
+	padding: 7px;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+	border: none;
+	border-radius: 50px;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 700;
+	text-transform: capitalize;
+	margin-top: 19px;
+}
+.supervisor .supervisor-details .details-code .availability{
+	margin-top: 7px;
+}
+.supervisor .supervisor-details .details-code .availability .image{
+	width: 128px;
+	display: flex;
+	flex-shrink: 0;
+	padding: 10px;
+	justify-content: center;
+/*	border: 1px solid white;*/
+	align-items: center;
+	gap: 10px;
+}
+.supervisor .supervisor-details .details-code .availability .image h4{
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 700;
+	text-transform: capitalize;
+}
+.supervisor .supervisor-details .details-code .availability p{
+	font-size: 28px;
+	font-style: normal;
+	font-weight: 700;
+	margin-left: 50px;
+	line-height: 99.8%;
+	text-transform: capitalize;
+}
+.supervisor .caution{
+	height: 58px;
+	display: flex;
+	padding: 18.5px 16px;
+	color: rgb(4, 107, 50, 1.0);
+	background-color: rgb(230, 242, 233, 1.0);
+	border: 0.4px dotted #91A887;
+	align-items: center;
+	gap: 16px;
+	flex-shrink: 0;
+	margin-top: 35px;
+}
+.supervisor .caution p{
+	font-size: 12.5px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 151%;
+	padding-top: 9px;
+}
+.supervisor .caution span{
+	font-weight: 700;
+}
+.supervisor .hall{
+	border: none;
+	margin-top: 35px;
+}
+.supervisor .hall .hall-header{
+	display: inline-flex;
+	align-items: center;
+	gap: 12px;
+}
+.supervisor .hall .hall-header h2{
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 99.8%;
+}
+.supervisor .hall .hall-header .hall-modal button{
+	width: 83px;
+	height: 27px;
+	padding: 6.075px 6.025px 5.925px 6.025px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 6.025px;
+	border: none;
+	border-radius: 30px;
+	font-size: 11px;
+	color: white;
+	background-color: rgb(2, 151, 83, 1.0);
+	margin-top: 2px;
+}
+
+/*................styling for the invilgilator modal.................*/
+.supervisor .hall .hall-header .hall-modal .modal{
+	width: 436px !important;
+	margin-top: 100px !important;
+	margin-left: 510px !important;
+	border-radius: 14px !important;
+}
+.supervisor .hall .hall-header .hall-modal .modal .modal-dialog .modal-content .modal-header{
+	background-color: rgba(26, 63, 46, 1);
+	color: white;
+/*	border-radius: !important;*/
+}
+.supervisor .hall .hall-header .hall-modal .modal .modal-dialog .modal-content .modal-body .invigilator-item{
+	display: flex;
+	width: 230px;
+	height: 42px;
+	padding-left: 18px;
+	align-items: center;
+	gap: 14px;
+	margin-left: 100px;
+}
+.supervisor .hall .hall-header .hall-modal .modal .modal-dialog .modal-content .modal-body .invigilator-item .item-check{
+	width: 17px;
+	height: 17px;
+	border: 1px solid rgba(40, 167, 69, 1);
+}
+.supervisor .hall .hall-header .hall-modal .modal .modal-dialog .modal-content .modal-body .invigilator-item .item-check input{
+	display: none !important;
+}
+.supervisor .hall .hall-header .hall-modal .modal .modal-dialog .modal-content .modal-body .invigilator-item .item-check label{
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	background-color: #ccc;
+	border: 3px solid white;
+	padding: 2px;
+	cursor: pointer;
+}
+.supervisor .hall .hall-header .hall-modal .modal .modal-dialog .modal-content .modal-body .invigilator-item .item-check input:checked + label{
+	background-color: rgba(0, 118, 64, 1);
+}
+.supervisor .hall .hall-header .hall-modal .modal .modal-dialog .modal-content .modal-body .invigilator-item p{
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 200%;
+	margin-top: 9px;
+}
+.supervisor .hall .hall-header .hall-modal .modal .modal-dialog .modal-content .modal-body .modal-footer button{
+	display: flex;
+	width: 314px !important;
+	height: 50px;
+	padding: 6.025px;
+	justify-content: center;
+	align-items: center;
+	gap: 6.025px;
+	flex-shrink: 0;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 99.8%;
+	margin-left: 45px;
+}
+
+/*................styling for the invilgilator modal end.................*/
+
+.supervisor .hall{
+	margin-bottom: 35px;
+}
+.supervisor .hall .hall-sections{
+	margin-top: 30px;
+	display: flex;
+	margin-bottom: 5px;
+}
+.supervisor .hall .hall-sections button{
+	display: flex;
+	width: 128px;
+	padding: 10px;
+	font-style: normal;
+	font-weight: 600;
+	color: rgb(176, 177, 177, 1.0);
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+	margin-right: 20px;
+	border: none;
+	border-radius: 50px;
+	font-size: 18px;
+	line-height: 99.8%;
+}
+.supervisor hr{
+	display: block;
+	color: black !important;
+	width: 694px;
+	margin: 0px auto;
+	stroke-width: 1px;
+	stroke: black;
+	opacity: 0.21;
+}
+.supervisor .invilgilator h2{
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 99.8%;
+	margin-bottom: 30px;
+	margin-top: 35px;
+}
+.supervisor .invilgilator .invilgilator-section{
+	width: 100%;
+	height: 87px;
+	display: flex;
+	flex-shrink: 0;
+	padding: 6px 45px;
+	border-radius: 8px;
+	justify-content: space-between;
+	background-color: white;
+	margin-bottom: 12px;
+/*	opacity: 0.3;*/
+}
+.supervisor .invigilator .space{
+	margin-bottom: 0px;
+}
+.supervisor .invilgilator .invilgilator-section .section-info{
+	display: flex;
+}
+.supervisor .invilgilator .invilgilator-section .section-info .section-image{
+	width: 55px;
+	height: 55px;
+	margin-top: 9px;
+}
+.supervisor .invilgilator .invilgilator-section .section-info .section-image img{
+	width: 100%;
+	height: 100%;
+}
+.supervisor .invilgilator .invilgilator-section .section-info .section-text{
+	height: 30px;
+/*	border: 1px solid green;*/
+	margin-left: 40px;
+	margin-top: -18px;
+}
+.supervisor .invilgilator .invilgilator-section .section-info .section-text h2{
+	font-size: 22px;
+	font-style: normal;
+	font-weight: 700;
+}
+.supervisor .invilgilator .invilgilator-section .section-info .section-text p{
+	font-size: 15px;
+	margin-top: -25px;
+}
+.supervisor .invilgilator .invilgilator-section .section-tool{
+	margin-top: 17px;
+}
+.supervisor .invilgilator .invilgilator-section .section-tool i{
+	width: 38px;
+	height: 38px;
+	color: rgb(2, 151, 83, 1.0);
+	justify-content: center;
+/*	align-items: center;*/
+	text-align: center;
+	background-color: rgb(235, 255, 233, 1.0);
+	border-radius: 50%;
+	padding-top: 12px;
+	padding-left: -4px;
+	margin-right: 37px;
+	margin-top: 4px;
+	cursor: pointer;
+}
+.supervisor .invilgilator .invilgilator-section .section-tool .modal{
+	width: 400px !important;
+	height: 400px !important;
+/*	border-radius: 62px !important;*/
+	margin-left: 500px !important;
+	margin-top: 150px !important;
+}
+.supervisor .invilgilator .invilgilator-section .section-tool .modal .modal-dialog .modal-content .modal-body{
+	padding: 50px;
+}
+.supervisor .invilgilator .invilgilator-section .section-tool .modal .modal-dialog .modal-content .modal-body .invigilator-image{
+	width: 118px;
+	height: 118px;
+	margin-left: 85px;
+}
+.supervisor .invilgilator .invilgilator-section .section-tool .modal .modal-dialog .modal-content .modal-body .invigilator-image img{
+	width: 100%;
+	height: 100%;
+}
+.supervisor .invilgilator .invilgilator-section .section-tool .modal .modal-dialog .modal-content .modal-body h4{
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 99.8%;
+	letter-spacing: -0.56px;
+	flex-shrink: 0;
+	margin-left: 100px;
+}
+.supervisor .invilgilator .invilgilator-section .section-tool .modal .modal-dialog .modal-content .modal-body p{
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 150%;
+	margin-left: 110px;
+}
+.supervisor .invilgilator .invilgilator-section .section-tool .modal .modal-dialog .modal-content .modal-body .hall-assign{
+	margin-left: 80px;
+}
+.footer{
+	padding: 30px 70px;
+	background-color: rgb(0,118,64);
+}
+.footer p{
+	font-size: 18px;
+	color: white;
+	text-align: right;
+}

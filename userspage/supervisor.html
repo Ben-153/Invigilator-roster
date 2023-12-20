@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Cambay:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="css/supervisor.css">
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Cambay:wght@400;700&display=swap');
+	</style>
+	<title>Supervisor's Hall</title>
+</head>
+<body>
+	<div class="wrapper">
+		<section class="header">
+			<div class="header-con">
+				<div class="logo">
+					<a href="https://www.federalpolyilaro.edu.ng/"><img src="images/logo.png"></a>
+				</div>
+				<p>The Federal Polytechnic Ilaro</p>
+			</div>
+		</section>
+		<section class="supervisor">
+			<div class="supervisor-image">
+				<img src="images/Profile pic.png">
+			</div>
+			<div class="supervisor-details width">
+				<div class="details-text">
+					<h2>Mr. Noah Adewale</h2>
+					<p>Faculty/Department -</p>
+					<div class="button">
+						<button><img src="images/ambulance.png" >Call Clinic</button>
+						<button class="security"><img src="images/security.png">Call Security</button>
+					</div>
+				</div>
+				<div class="details-code">
+					<div class="code">
+						<button>Code: 224</button>
+					</div>
+					<div class="availability">
+						<div class="image">
+							<img src="images/teacher.png"> 
+							<h4>Availability</h4>
+						</div>
+						<p>0/6</p>
+					</div>
+				</div>
+			</div>
+			<div class="caution width">
+				<img src="images/exclamation-full.png">
+				<p>Click on <span>Activate Hall</span> and select invigilators that are available. Please note that you need at least 4 invilgilators to be present before you can activate hall</p>
+			</div>
+			<div class="hall width">
+				<div class="hall-header">
+					<h2>Supervising Hall</h2>
+					<div class="hall-modal">
+						<button type="button" data-toggle="modal" data-target="#myModal">Activate Hall</button>
+						<div class="modal fade" id="myModal" role="dialog">
+   							 <div class="modal-dialog modal-dialog-centered">
+      						<!-- Modal content-->
+      							<div class="modal-content">
+       					 			<div class="modal-header">
+         								<h4 class="modal-title">Activate Invilgilators</h4>
+        							</div>
+        							<div class="modal-body">
+         	 							<div class="invigilator-item">
+         	 								<div class="item-check">
+         	 									<input type="checkbox" id="myCheckbox1" name="check">
+												<label for="myCheckbox1"></label>
+         	 								</div>
+											<p>Invigilator One</p>
+         	 							</div>
+         	 							<div class="invigilator-item">
+         	 								<div class="item-check">
+         	 									<input type="checkbox" id="myCheckbox2" name="check">
+												<label for="myCheckbox2"></label>
+         	 								</div>
+											<p>Invigilator Two</p>
+         	 							</div>
+         	 							<div class="invigilator-item">
+         	 								<div class="item-check">
+         	 									<input type="checkbox" id="myCheckbox3" name="check">
+												<label for="myCheckbox3"></label>
+         	 								</div>
+											<p>Invigilator Three</p>
+         	 							</div>
+         	 							<div class="invigilator-item">
+         	 								<div class="item-check">
+         	 									<input type="checkbox" id="myCheckbox4" name="check">
+												<label for="myCheckbox4"></label>
+         	 								</div>
+											<p>Invigilator Four</p>
+         	 							</div>
+         	 							<div class="invigilator-item">
+         	 								<div class="item-check">
+         	 									<input type="checkbox" id="myCheckbox5" name="check">
+												<label for="myCheckbox5"></label>
+         	 								</div>
+											<p>Invigilator Five</p>
+         	 							</div>
+         	 							<div class="invigilator-item">
+         	 								<div class="item-check">
+         	 									<input type="checkbox" id="myCheckbox6" name="check">
+												<label for="myCheckbox6"></label>
+         	 								</div>
+											<p>Invigilator Six</p>
+         	 							</div>
+         	 							<div class="invigilator-item">
+         	 								<div class="item-check">
+         	 									<input type="checkbox" id="myCheckbox7" name="check">
+												<label for="myCheckbox7"></label>
+         	 								</div>
+											<p>Invigilator Seven</p>
+         	 							</div>
+       								</div>
+       		 						<div class="modal-footer">
+          								<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+       			 					</div>
+      							</div>
+      
+    						</div>
+  						</div>
+					</div>
+				</div>
+				<div class="hall-sections">
+					<button>Hall: 001</button>
+					<button>Hall: 001</button>
+					<button>Hall: 001</button>
+				</div>
+			</div>
+			<hr style="border: 1px solid black;"><hr/>
+			<div class="invilgilator width">
+				<h2>Officiating Invilgilators</h2>
+				<div class="invilgilator-section">
+					<div class="section-info">
+						<div class="section-image">
+							<img src="images/Profile pic.png">
+						</div>
+						<div class="section-text">
+							<h2>Invigilator One</h2>
+							<p>Designation</p>
+						</div>
+					</div>
+					<div class="section-tool">
+						<i class="fas fa-phone"></i>
+						<i class="fas fa-user profile" data-toggle="modal" data-target="#myModal2"></i>
+						<div class="modal fade rounded" id="myModal2" role="dialog" alt="...">
+    						<div class="modal-dialog modal-dialog-centered rounded">
+    
+    						<!-- Modal content-->
+      							<div class="modal-content">
+        							<div class="modal-body">
+        								<button type="button" class="close" data-dismiss="modal">&times;</button>
+        								<div class="invigilator-image"><img src="images/Profile pic.png"></div>
+        								<h4>Invigilator one</h4>
+          								<p class="hall-code">Code: 224</p>
+          								<p class="hall-assign">Invigilating: Hall one</p>
+        							</div>
+     							</div>
+     							
+    						</div>
+  						</div>
+					</div>
+				</div>
+				<div class="invilgilator-section">
+					<div class="section-info">
+						<div class="section-image">
+							<img src="images/Profile pic.png">
+						</div>
+						<div class="section-text">
+							<h2>Invigilator Two</h2>
+							<p>Designation</p>
+						</div>
+					</div>
+					<div class="section-tool">
+						<i class="fas fa-phone"></i>
+						<i class="fas fa-user profile" data-toggle="modal" data-target="#myModal3"></i>
+						<div class="modal fade rounded" id="myModal3" role="dialog" alt="...">
+    						<div class="modal-dialog modal-dialog-centered rounded">
+    
+    						<!-- Modal content-->
+      							<div class="modal-content">
+        							<div class="modal-body">
+        								<button type="button" class="close" data-dismiss="modal">&times;</button>
+        								<div class="invigilator-image"><img src="images/Profile pic.png"></div>
+        								<h4>Invigilator two</h4>
+          								<p class="hall-code">Code: 224</p>
+          								<p class="hall-assign">Invigilating: Hall one</p>
+        							</div>
+     							</div>
+     							
+    						</div>
+  						</div>
+					</div>
+				</div>
+				<div class="invilgilator-section">
+					<div class="section-info">
+						<div class="section-image">
+							<img src="images/Profile pic.png">
+						</div>
+						<div class="section-text">
+							<h2>Invigilator Three</h2>
+							<p>Designation</p>
+						</div>
+					</div>
+					<div class="section-tool">
+						<i class="fas fa-phone"></i>
+						<i class="fas fa-user profile" data-toggle="modal" data-target="#myModal4"></i>
+						<div class="modal fade rounded" id="myModal4" role="dialog" alt="...">
+    						<div class="modal-dialog modal-dialog-centered rounded">
+    
+    						<!-- Modal content-->
+      							<div class="modal-content">
+        							<div class="modal-body">
+        								<button type="button" class="close" data-dismiss="modal">&times;</button>
+        								<div class="invigilator-image"><img src="images/Profile pic.png"></div>
+        								<h4>Invigilator three</h4>
+          								<p class="hall-code">Code: 224</p>
+          								<p class="hall-assign">Invigilating: Hall one</p>
+        							</div>
+     							</div>
+     							
+    						</div>
+  						</div>
+					</div>
+				</div>
+				<div class="invilgilator-section">
+					<div class="section-info">
+						<div class="section-image">
+							<img src="images/Profile pic.png">
+						</div>
+						<div class="section-text">
+							<h2>Invigilator Four</h2>
+							<p>Designation</p>
+						</div>
+					</div>
+					<div class="section-tool">
+						<i class="fas fa-phone"></i>
+						<i class="fas fa-user profile" data-toggle="modal" data-target="#myModal5"></i>
+						<div class="modal fade rounded" id="myModal5" role="dialog" alt="...">
+    						<div class="modal-dialog modal-dialog-centered rounded">
+    
+    						<!-- Modal content-->
+      							<div class="modal-content">
+        							<div class="modal-body">
+        								<button type="button" class="close" data-dismiss="modal">&times;</button>
+        								<div class="invigilator-image"><img src="images/Profile pic.png"></div>
+        								<h4>Invigilator four</h4>
+          								<p class="hall-code">Code: 224</p>
+          								<p class="hall-assign">Invigilating: Hall one</p>
+        							</div>
+     							</div>
+     							
+    						</div>
+  						</div>
+					</div>
+				</div>
+				<div class="invilgilator-section">
+					<div class="section-info">
+						<div class="section-image">
+							<img src="images/Profile pic.png">
+						</div>
+						<div class="section-text">
+							<h2>Invigilator Five</h2>
+							<p>Designation</p>
+						</div>
+					</div>
+					<div class="section-tool">
+						<i class="fas fa-phone"></i>
+						<i class="fas fa-user profile" data-toggle="modal" data-target="#myModal6"></i>
+						<div class="modal fade rounded" id="myModal6" role="dialog" alt="...">
+    						<div class="modal-dialog modal-dialog-centered rounded">
+    
+    						<!-- Modal content-->
+      							<div class="modal-content">
+        							<div class="modal-body">
+        								<button type="button" class="close" data-dismiss="modal">&times;</button>
+        								<div class="invigilator-image"><img src="images/Profile pic.png"></div>
+        								<h4>Invigilator five</h4>
+          								<p class="hall-code">Code: 224</p>
+          								<p class="hall-assign">Invigilating: Hall one</p>
+        							</div>
+     							</div>
+     							
+    						</div>
+  						</div>
+					</div>
+				</div>
+				<div class="invilgilator-section space">
+					<div class="section-info">
+						<div class="section-image">
+							<img src="images/Profile pic.png">
+						</div>
+						<div class="section-text">
+							<h2>Invigilator Six</h2>
+							<p>Designation</p>
+						</div>
+					</div>
+					<div class="section-tool">
+						<i class="fas fa-phone"></i>
+						<i class="fas fa-user profile" data-toggle="modal" data-target="#myModal7"></i>
+						<div class="modal fade rounded" id="myModal7" role="dialog" alt="...">
+    						<div class="modal-dialog modal-dialog-centered rounded">
+    
+    						<!-- Modal content-->
+      							<div class="modal-content">
+        							<div class="modal-body">
+        								<button type="button" class="close" data-dismiss="modal">&times;</button>
+        								<div class="invigilator-image"><img src="images/Profile pic.png"></div>
+        								<h4>Invigilator six</h4>
+          								<p class="hall-code">Code: 224</p>
+          								<p class="hall-assign">Invigilating: Hall one</p>
+        							</div>
+     							</div>
+     							
+    						</div>
+  						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="footer">
+			<p>@2023 The Federal Polytechnic Ilaro</p>
+		</section>
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</body>
+</html>
