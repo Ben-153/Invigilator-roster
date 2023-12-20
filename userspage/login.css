@@ -6,7 +6,7 @@
 }
 .wrapper{
 	width: 100%;
-	background-image: url('../images/home_background.png');
+	background-image: url('../userspage/assets/images/home_background.png');
 	background-repeat: no-repeat;
 	background-size: cover;
 	padding-bottom: 10px;
@@ -161,4 +161,64 @@
 	font-size: 18px;
 	color: white;
 	text-align: right;
+}
+@media screen and (min-width:2000px){
+	.wrapper{
+		width: 100%;
+		height: 2300px !important;
+	}
+}
+@media screen and (min-width: 1439px){
+	.wrapper{
+		width: 100%;
+		height: 960px !important;
+	}
+	.wrapper .login-form .login-form-container{
+		width: 65%;
+		margin-top: 300px;
+		margin-left: 140px;
+		padding: 30px 30px;
+	}
+	.wrapper .login-form .login-form-container h3{
+		font-size: 30px;
+	}
+	.wrapper .login-form .login-form-container form{
+		margin-top: 25px;
+	}
+	.wrapper .login-form .login-form-container form label{
+		font-size: 16px;
+	}
+	.wrapper .login-form .login-form-container form .input-container {	
+		position: relative;
+	}
+	.wrapper .login-form .login-form-container form .icon {
+	  font-size:16px;
+	  position: absolute;
+	  top: 17px;
+	}
+	.wrapper .login-form .login-form-container form .input-field {
+	  height: 50px;
+	}
+	.wrapper .login-form .login-form-container form .submit input{
+		width: 100%;
+		height: 50px;
+	}
+	.wrapper .login-text{
+		padding: 240px 50px 100px 0px !important;
+	}
+	.wrapper .login-text .logo{
+		width: 180px;
+		height: 180px;
+		margin-left: 29%;
+	}
+	.wrapper .login-text .text{
+		width: 75%;
+	}
+	.wrapper .login-text .text h3{
+		font-size: 40px;
+		margin: 8px 0;
+	}
+	.wrapper .login-text .text p{
+		font-size: 18px;
+	}
 }

@@ -1,0 +1,150 @@
+.navbar{
+	display: flex !important;
+	flex-direction: column !important;
+	position: relative;
+}
+.navbar .nav-item{
+	position: absolute;
+	top: 300px;
+/*	border: 2px solid black;*/
+}
+#check:checked ~ label #cancel{
+	position: fixed;
+	left: 250px;	
+}
+
+.body .page-title{
+	padding-right: 60px !important;
+	display: flex;
+	justify-content: space-between;
+}
+.body .page-title button{
+	width: 155px;
+	height: 33px;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+	flex-shrink: 0;
+	margin-top: 20px;
+	font-size: 14px;
+	font-family: 'Cabin Condensed' sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	outline: none;
+	border: none;
+	border-radius: 4px;
+	color: white;
+	background-color: rgba(2, 151, 83, 1);
+}
+.body .content-table{
+	padding: 60px 50px;
+	background-color: rgb(236, 236, 236, 1.0);
+}
+.body .content-table .table-wrapper{
+	background-color: white;
+	padding: 12px;
+	border-radius: 14px;
+}
+.body .content-table .table{
+/*	background-color: white;*/
+	font-family: 'inter' sans-serif;
+}
+.body .page-title .modal{
+	width: 410px !important;
+	margin-top: 70px !important;
+	margin-left: 470px !important;
+}
+.body .page-title .modal .modal-dialog{
+	border-radius: 5px !important;
+}
+.body .page-title .modal .modal-dialog .modal-content .modal-header, .body .page-title .modal .modal-dialog .modal-content .modal-footer{
+	background-color: rgb(246, 246, 249);
+}
+.body .page-title .modal .modal-dialog .modal-content .modal-header{
+	position: relative;
+}
+.body .page-title .modal .modal-dialog .modal-content .modal-header h5{
+	font-size: 26px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	margin-top: 10px;
+}
+.body .page-title .modal .modal-dialog .modal-content .modal-header button{
+	background-color: white !important;
+	width: 40px !important;
+	height: 30px !important;
+/*	margin-top: -45px;*/
+	border: 1px solid grey;
+	gap: 8px;
+	position: absolute;
+	top: 0px;
+	right: 20px;
+}
+.body .page-title .modal .modal-dialog .modal-content .modal-header button span{
+	background-color: white;
+	font-size: 16px !important;
+	color: grey;
+}
+.body .page-title .modal .modal-dialog .modal-content .modal-body{
+	padding: 32px 10px 10px 17px !important; 
+}
+.body .page-title .modal .modal-dialog .modal-content .modal-body .modal-form form{
+	display: flex;
+	flex-direction: column;
+}
+.body .page-title .modal .modal-dialog .modal-content .modal-body .modal-form form label{
+	font-family: 'Cambay' sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 16px;
+	margin-bottom: 5px;
+}
+.body .page-title .modal .modal-dialog .modal-content .modal-body .modal-form form input{
+	width: 95%;
+	height: 40px;
+	margin-bottom: 15px;
+}
+.body .page-title .modal .modal-dialog .modal-content .modal-footer button{
+	width: 100px !important;
+	height: 40px !important;
+	font-family: 'Cambay' sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 16px;
+}
+.body .page-title .modal .modal-dialog .modal-content .modal-footer .cancel{
+	color: black;
+	background-color: white;
+	float: left !important;
+	margin-top: 0px;
+	margin-right: 160px;
+}
+.body .page-title .modal .modal-dialog .modal-content .modal-footer .save{
+	margin-right: 10px;
+	margin-top: 0px;
+}
+.body .content-table tbody .ion i{
+	padding-left: 20px;
+	cursor: pointer;
+	color: grey;
+}
+.body .content-table .table-wrapper tbody td p{
+	display: inline-flex;
+	padding: 4px 8px;
+	align-items: center;
+	gap: 8px;
+	color: var(--Light-mode-Success700, #2F6846);
+	font-feature-settings: 'clig' off, 'liga' off;
+	font-family: Cambay;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 20px; /* 142.857% */
+	border-radius: 4px;
+	border: 1px solid var(--Light-mode-Success200, #C6F0C2);
+	background: var(--Light-mode-Success100, #EAFBE7);
+	margin-top: 4px;
+}
